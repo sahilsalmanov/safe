@@ -125,6 +125,47 @@ h1 {
    z-index: -1;
    left: 10px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto+Slab&display=swap');
+.section3 h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.section3 h2{
+    color:#1E4681;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.section3 .block{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.section4{
+    width: 85%;
+    margin: auto; 
+}
+.section4 h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.section4 ul{
+    font-weight: 400px;
+    font-size: 24px;
+height: 374px;
+width: 662px;
+}
 @media screen and (min-width:992px) and (max-width:1279px) {
     .section-1 {
      height: 120vh;
@@ -255,3 +296,4 @@ h1 {
     font-size: 10px;
 }
      }
+
