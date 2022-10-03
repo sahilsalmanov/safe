@@ -40,3 +40,50 @@
 height: 374px;
 width: 662px;
 }
+@media screen and (min-width: 992px)and (max-width: 1279px) {
+    .section3 .one {
+        font-size: 11px;
+        width: 60%;
+        
+    }
+    .section3 .two{
+font-size: 11px;
+width: 60%;
+    }
+    .section3 .three{
+        font-size: 11px;
+        width: 60%;
+    }
+    .section3 h1{
+        font-size: 32px;
+      }
+      .section3 h2{
+        font-size: 15px;
+      }
+      .section4 h1{
+        font-size: 32px;
+      }
+      .section4 ul{
+        font-size: 14px;
+        width: 60%;
+      }
+}
+@media screen and (min-width:320px)and (max-width: 991px) {
+.section3 h1{
+    font-size: 26px;
+}
+.section3 h2{
+    font-size: 12px;
+}
+.section3 p{
+    font-size: 10px;
+    width:60% ;
+}
+.section4 h1{
+    font-size: 26px;
+}
+.section4 ul{
+    font-size: 12px;
+    width: 60%;
+}
+}
