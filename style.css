@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .section-five  {
 height: 1200px;
@@ -124,3 +125,350 @@ height: 17.95px;
 }
 
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto+Slab&display=swap');
+.section-1 {
+    height: 980px;
+    box-sizing: border-box;
+}
+.container-1 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-1 .first {
+    height: 100px;
+}
+.section-1 .first .black {
+    width: 60px;
+    height: 15px;
+    background-color: black;
+}
+.section-1 .second {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 .second .second-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-1 .second h1 {
+    font-size: 700;
+    font-size: 80px;
+    width: 80%;
+}
+.section-1 .second-first p {
+    width: 50%;
+    font-size: 20px;
+}
+.section-1 .second .second-first-top {
+    padding-top: 30px;
+    width: 80%;
+    display: flex;
+}
+.section-1 .second .second-first-top div {
+    display: flex;
+    width: 34%;
+}
+.section-1 .second .second-first-top div p {
+    font-size: 17px;
+}
+.section-1 .second .ellipse3 {
+    position: relative;
+    height: 410px;
+}
+.section-1 .image9 {
+    width: 100%;
+}
+ .section-1 .ellipse-gray3 {
+    width: 100%;     
+    position: absolute;
+    z-index: -1;
+   bottom: 10px;
+    
+}
+.section-1 .second .second-first-top img {
+   height: 20px;
+   margin-top:16px;
+   margin-right: 5px;
+}
+.section-1 .third {
+    height: 360px;
+}
+.section-1 .third .third-block {
+    height: 180px;
+    background-color: #1E4681;
+    width: 34%;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+    margin-top: 90px;
+}
+.section-1 .third .ordinary {
+    display: flex;
+    justify-content: flex-end;
+}
+.section-2 {
+    width: 85%;
+    margin: auto;
+    height: 900px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-weight: 900;
+    font-size: 40px
+}
+.main-part {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+} 
+.main-p {
+    width: 50%;
+}
+.ellipse {          
+    position: relative;
+    height: 350px;
+}
+.image1 {
+    width: 100%;
+}
+.image2 {
+    width: 100%;     
+    position: absolute;
+    bottom: 15px;
+    z-index: -1;
+}
+.end-part {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.ellipse2 {
+    position: relative;
+    height: 230px;
+}
+.image4 {
+   width: 100%;
+   position: absolute;
+   bottom: 10px;
+   z-index: -1;
+   left: 10px;
+}
+.section3 h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.section3 h2{
+    color:#1E4681;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.section3 .block{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.section4{
+    width: 85%;
+    margin: auto; 
+}
+.section4 h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.section4 ul{
+    font-weight: 400px;
+    font-size: 24px;
+height: 374px;
+width: 662px;
+}
+
+@media screen and (min-width:992px) and (max-width:1279px) {
+    .section-1 {
+        height: 960px;
+       }
+     .section-1 .second-first-top p {
+        width: 80%;
+    }
+    .section-1 .second h1 {
+        width: 80%;
+        font-size: 60px;
+    }
+    .section-1 .second img {
+        margin-top: 70px;
+    }
+    .section-1 .second-first-bottom p {
+        width: 70%;
+    }
+    .section-1 .second .ellipse3 {
+        position: relative;
+        height: 460px;
+        
+    }
+    .section-1 .image9 {
+        width: 100%;
+    }
+     .section-1 .ellipse-gray3 {
+        width: 100%;     
+        position: absolute;
+        z-index: -1;
+       bottom: 10px;
+        
+    }
+    .section-1 .end-part {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .section-1 .third .third-block {
+        height: 160px;
+        background-color: #1E4681;
+        width: 50%;
+    }
+    .section-1 .third-block p {
+     font-size: 22px;
+}
+    .section-2 {
+    height: 500px;
+   }
+    .section-2 h1 {
+        font-size: 32px;
+    }
+   .section-2 .main-p {
+        font-size: 14px;
+    }
+    .section-2 .ellipse {
+        height: 210px;
+    }
+    .section-2 .image1 {
+        height: 180px;
+    }
+    .section-2 .end-part {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .section-2 .ellipse2 {
+        display: none;
+    }
+    .section-2 .bottom-p h3 {
+        font-size: 15px;
+    }
+    .section-2 .bottom-p p {
+        font-size: 11px;
+    }
+        .section3 .one {
+            font-size: 11px;
+            width: 60%;
+            
+        }
+        .section3 .two{
+         font-size: 11px;
+         width: 60%;
+        }
+        .section3 .three{
+            font-size: 11px;
+            width: 60%;
+        }
+        .section3 h1{
+            font-size: 32px;
+          }
+          .section3 h2{
+            font-size: 15px;
+          }
+          .section4 h1{
+            font-size: 32px;
+          }
+          .section4 ul{
+            font-size: 14px;
+            width: 60%; 
+          }
+    }
+
+@media screen and (min-width:320px) and (max-width:991px) {
+    .section-1 {
+        height: 1400px;
+       }
+       .section-1 h1 {
+        font-size: 700;
+        font-size: 60px;
+        width: 80%;
+    }
+    .section-1 .second {
+        display: block;
+        height: 950px;
+    }
+   .section-1 .second-first-top p {
+        width: 100%;
+    }
+    .second-first-bottom p {
+        width: 70%;
+    }
+    .section-1 .third .third-block {
+        height: 220px;
+        background-color: #1E4681;
+        width: 70%;
+        
+    }
+    .second-second {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .third-block p {
+        font-size: 22px;
+    }
+    .section-2 {
+    height: 900px;
+
+   }
+    .section-2 h1 {
+        font-size: 26px;
+
+    }
+    .main-part {
+        display: block;
+    }
+.main-p {
+    font-size: 18px;
+    width: 100%;
+}
+.section3 h1{
+    font-size: 26px;
+}
+.section3 h2{
+    font-size: 12px;
+}
+.section3 p{
+    font-size: 10px;
+    width:60% ;
+}
+.section4 h1{
+    font-size: 26px;
+}
+.section4 ul{
+    font-size: 12px;
+    width: 60%;
+}
+}
+>>>>>>> 2e1f4df4b0c0a2f7df8f1dd73173c1a8290f2dac
