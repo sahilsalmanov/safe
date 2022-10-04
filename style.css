@@ -7,7 +7,7 @@ height: 1200px;
     margin: auto;
    margin-bottom: 100px;
 }
-.button{
+.section-five .button{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@ height: 1200px;
     gap: 25px;
     font-size: 15px;
 }
-.button .hey {
+.section-five .button .hey {
     width: 30%;
     box-shadow: 1px 1px 15px 0px #00000040;
     border-radius: 30px;
@@ -25,10 +25,10 @@ height: 1200px;
 .section-five h1, p {
     padding-left: 20px;
 }
-.button img {
+.section-five .button img {
     width: 100%;
 }
-.button .bottom {
+.section-five .button .bottom {
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ height: 1200px;
     width: 100%;
    
 }
-.bottom h1 {
+.section-five .bottom h1 {
     font-size: 21px;
 }
 .section-six{
@@ -44,17 +44,17 @@ height: 1200px;
     margin: auto;
     height: 600px;
 }
-.box{
+.section-six .box{
     width: 56%;
     height: auto;
     box-shadow: 1px 1px 15px 0px #00000040;
     border-radius: 30px;
     padding: 40px;
 }
-.little-box{
+.section-six .little-box{
     display: flex;
 }
-.column{
+.section-six .column{
     flex-direction: column;
 }
 
@@ -63,34 +63,34 @@ height: 1200px;
 .section-five{
         background-color: aqua;
 }
-.button .hey {
+.section-five .button .hey {
     height: 230px;
 }
-img {
+.section-five img {
     width: 100%;
 }
-.bottom h1 {
+.section-five .bottom h1 {
     font-size: 17px;
 }
-.button .bottom {
+.section-five .button .bottom {
     justify-content: flex-start;
 }
-.little-box img{
+.section-six .little-box img{
     width: 110.04px;
     height: 97.88px;
 }
-.column img{
+.section-six .column img{
     width: 18.53px;
 height: 17.95px;
 }
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px){
-.button {
+    .section-five .button {
     display: block;
 
 }
-.button .hey {
+.section-five .button .hey {
     width: 55%; 
     margin: auto;
     height: 270px;
@@ -100,26 +100,26 @@ height: 17.95px;
 .section-five{
     height: 2600px;
 }
-img {
+.section-five img {
 width: 100%;
 height: 50%;
 }
-.bottom h1 {
+.section-five .bottom h1 {
 font-size: 17px;
 }
-.button .bottom {
+.section-five .button .bottom {
 justify-content: flex-start;
 height: 150px;
 }
-.little-box img{
+.section-five .little-box img{
 width: 110.04px;
 height: 97.88px;
 }
-.column img{
+.section-five .column img{
 width: 18.53px;
 height: 17.95px;
 }
-.box {
+.section-six .box {
     width: 85%;
 }
 
