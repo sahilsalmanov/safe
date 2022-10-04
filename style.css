@@ -530,6 +530,35 @@ background-color: red;
     font-size: 18px;
     width: 100%;
 }
+.ellipse {
+    width:30%;
+    margin: auto;
+    height: 176px;
+
+}
+.image1 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.end-part {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.ellipse2 {
+    display: none;
+}
+.bottom-p {
+    flex-basis: 34%;
+}
+.bottom-p h3 {
+    font-size: 12px;
+}
+.bottom-p p {
+    font-size: 10px;
+}
+   
 .section3 h1{
     font-size: 26px;
 }
