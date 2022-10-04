@@ -1,75 +1,5 @@
-<<<<<<< HEAD
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto+Slab&display=swap');
-.section3 h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 55px;
-    font-weight: 700;
-}
-.container{
-    width: 85%;
-    margin: auto;
-    margin-bottom: 100px;
-}
-.section3 h2{
-    color:#1E4681;
-    font-family: 'Roboto Slab', serif;
-    font-size: 25px;
-    font-weight: 700px;
-}
-.section3 .block{
-    display: flex;
-    justify-content: space-between;
-}
-.section3 p{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400px;
-    font-size: 18px;
-}
-.section4{
-    width: 85%;
-    margin: auto; 
-}
-.section4 h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 55px;
-    font-weight: 700;
-}
-.section4 ul{
-    font-weight: 400px;
-    font-size: 24px;
-height: 374px;
-width: 662px;
-}
-@media screen and (min-width: 992px)and (max-width: 1279px) {
-    .section3 .one {
-        font-size: 11px;
-        width: 60%;
-        
-    }
-    .section3 .two{
-font-size: 11px;
-width: 60%;
-    }
-    .section3 .three{
-        font-size: 11px;
-        width: 60%;
-    }
-    .section3 h1{
-        font-size: 32px;
-      }
-      .section3 h2{
-        font-size: 15px;
-      }
-      .section4 h1{
-        font-size: 32px;
-      }
-      .section4 ul{
-        font-size: 14px;
-        width: 60%; 
-      }
-=======
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto+Slab&display=swap');
 .section-1 {
     height: 980px;
     box-sizing: border-box;
@@ -206,6 +136,47 @@ h1 {
    z-index: -1;
    left: 10px;
 }
+.section3 h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.section3 h2{
+    color:#1E4681;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.section3 .block{
+    display: flex;
+    justify-content: space-between;
+}
+.section3 p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.section4{
+    width: 85%;
+    margin: auto; 
+}
+.section4 h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.section4 ul{
+    font-weight: 400px;
+    font-size: 24px;
+height: 374px;
+width: 662px;
+}
+
 @media screen and (min-width:992px) and (max-width:1279px) {
     .section-1 {
         height: 960px;
@@ -279,7 +250,34 @@ h1 {
     .section-2 .bottom-p p {
         font-size: 11px;
     }
-}
+        .section3 .one {
+            font-size: 11px;
+            width: 60%;
+            
+        }
+        .section3 .two{
+         font-size: 11px;
+         width: 60%;
+        }
+        .section3 .three{
+            font-size: 11px;
+            width: 60%;
+        }
+        .section3 h1{
+            font-size: 32px;
+          }
+          .section3 h2{
+            font-size: 15px;
+          }
+          .section4 h1{
+            font-size: 32px;
+          }
+          .section4 ul{
+            font-size: 14px;
+            width: 60%; 
+          }
+    }
+
 @media screen and (min-width:320px) and (max-width:991px) {
     .section-1 {
         height: 1400px;
@@ -326,9 +324,7 @@ h1 {
 .main-p {
     font-size: 18px;
     width: 100%;
->>>>>>> 07683abe8960ccfc7a0c81683cea117f4c19c8d0
 }
-@media screen and (min-width:320px)and (max-width: 991px) {
 .section3 h1{
     font-size: 26px;
 }
@@ -339,7 +335,6 @@ h1 {
     font-size: 10px;
     width:60% ;
 }
-<<<<<<< HEAD
 .section4 h1{
     font-size: 26px;
 }
@@ -347,6 +342,4 @@ h1 {
     font-size: 12px;
     width: 60%;
 }
-=======
->>>>>>> 07683abe8960ccfc7a0c81683cea117f4c19c8d0
 }
