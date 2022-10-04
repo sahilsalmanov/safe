@@ -65,7 +65,7 @@ width: 60%;
       }
       .section4 ul{
         font-size: 14px;
-        width: 60%;
+        width: 60%; 
       }
 }
 @media screen and (min-width:320px)and (max-width: 991px) {
