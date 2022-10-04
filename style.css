@@ -1,3 +1,7 @@
+
+.section-five  {
+height: 1200px;
+}
 .section-five  .container {
     width: 85%;
     margin: auto;
@@ -15,7 +19,7 @@
     width: 30%;
     box-shadow: 1px 1px 15px 0px #00000040;
     border-radius: 30px;
-    height: 44vh;
+    height: 280px;
 }
 
 .section-five h1, p {
@@ -24,18 +28,21 @@
 .button img {
     width: 100%;
 }
-
-
 .button .bottom {
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
    
 }
+.bottom h1 {
+    font-size: 21px;
+}
 .section-six{
     width: 85%;
     margin: auto;
+    height: 600px;
 }
 .box{
     width: 56%;
@@ -55,7 +62,9 @@
 
 .section-five{
         background-color: aqua;
-
+}
+.button .hey {
+    height: 230px;
 }
 img {
     width: 100%;
@@ -77,7 +86,41 @@ height: 17.95px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px){
+.button {
+    display: block;
 
-    
+}
+.button .hey {
+    width: 55%; 
+    margin: auto;
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.section-five{
+    height: 2600px;
+}
+img {
+width: 100%;
+height: 50%;
+}
+.bottom h1 {
+font-size: 17px;
+}
+.button .bottom {
+justify-content: flex-start;
+height: 150px;
+}
+.little-box img{
+width: 110.04px;
+height: 97.88px;
+}
+.column img{
+width: 18.53px;
+height: 17.95px;
+}
+.box {
+    width: 85%;
+}
 
 }
