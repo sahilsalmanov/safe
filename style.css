@@ -157,11 +157,15 @@ h1 {
 .section3 .block{
     display: flex;
     justify-content: space-between;
+    width: 90%;
 }
 .section3 p{
     font-family: 'Roboto Slab', serif;
     font-weight: 400px;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
 }
 .section4{
     width: 85%;
@@ -180,7 +184,7 @@ width: 662px;
 }
 
 .section-five  {
-    height: 1200px;
+    height: 1100px;
     }
     .section-five  .container {
         width: 85%;
@@ -228,7 +232,8 @@ width: 662px;
         margin: auto;
         height: 600px;
         background: #EFEFEF;
-        ;
+        display: flex;
+        align-items: center;
     }
     .section-six .box{
         width: 56%;
@@ -426,12 +431,18 @@ justify-content: space-between;
           .section3 h2{
             font-size: 15px;
           }
+          .section4 {
+            height: 300px;
+          }
           .section4 h1{
             font-size: 32px;
           }
           .section4 ul{
             font-size: 14px;
             width: 60%; 
+          }
+          .section-five {
+            height: 950px;
           }
           
     .section-five .button .hey {
@@ -521,7 +532,7 @@ justify-content: space-between;
         font-size: 22px;
     }
     .section-2 {
-    height: 900px;
+    height: 770px;
 
    }
     .section-2 h1 {
@@ -574,6 +585,9 @@ justify-content: space-between;
     font-size: 10px;
     width:60% ;
 }
+.section4 {
+    height: 250px;
+}
 .section4 h1{
     font-size: 26px;
 }
@@ -613,6 +627,9 @@ height: 97.88px;
 .section-five .column img{
 width: 18.53px;
 height: 17.95px;
+}
+.section-six {
+    height: 640px;
 }
 .section-six .box {
     width: 85%;
