@@ -1,103 +1,7 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-.section7{
-    height:  700px;
-    background-color: #9DC9C8;
-    font-family: 'Roboto', sans-serif;
-} 
-.container-7 {
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    margin: auto;
-    justify-content: center;
-}
-.section7 h1{
-    font-size: 55px;
-    font-weight: 700;
-}
-.section7 .second{
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
-.section7 .third{
-    font-weight: 400;
-    font-size: 80px;
-    margin-top: 0;
-}
-.section7 .bottom{
-    display: flex;
-    width: 90%;
-}
 
-.section7 .left{
-    width: 35%;
-
-}
-.section7 .right{
-    width: 35%;
-}
-
-.section7 h2{
-    font-size: 25px;
-    font-weight: 400;
-}
-.section7 .under{
-    font-size: 18px;
-    font-weight: 400;
-    width: 60%;
-}
-.section8{
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
-}
-
-.section8 .container{
-    width: 85%;
-    height: 300px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.section8 .top {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-.top-left-bottom{
- 
-    width: 100%;
-}
-.ig, .fb, .wk, .viber{
-    margin-right: 20px;
-}
-
-
-.section8 .top-left-image img{
-    height: 25px;
-    width: 25px;
-}
-.top-right{
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 15%;
-}
- @media screen and (min-width:992px) and (max-width:1279) {
-   .section7 h1{
-    font-size: 30px;
-    width: 50%;
-   }
-}
-
-=======
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .section-1 {
     height: 980px;
     box-sizing: border-box;
@@ -333,6 +237,93 @@ width: 662px;
     .section-six .column{
         flex-direction: column;
     }
+.section7{
+    height:  700px;
+    background-color: #9DC9C8;
+    font-family: 'Roboto', sans-serif;
+} 
+.container-7 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+.section7 h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.section7 .second{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.section7 .third{
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 0;
+}
+.section7 .bottom{
+    display: flex;
+    width: 90%;
+}
+
+.section7 .left{
+    width: 35%;
+
+}
+.section7 .right{
+    width: 35%;
+}
+
+.section7 h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.section7 .under{
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+}
+.section8{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.section8 .container{
+    width: 85%;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.section8 .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.top-left-bottom{
+ 
+    width: 100%;
+}
+.ig, .fb, .wk, .viber{
+    margin-right: 20px;
+}
+
+
+.section8 .top-left-image img{
+    height: 25px;
+    width: 25px;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 15%;
+}
     
 
 @media screen and (min-width:992px) and (max-width:1279px) {
@@ -561,4 +552,3 @@ height: 17.95px;
 }
 
 }
->>>>>>> af682e7c8cffbb525effab266249685d207b58db
