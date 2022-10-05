@@ -532,7 +532,7 @@ justify-content: space-between;
         font-size: 22px;
     }
     .section-2 {
-    height: 770px;
+    height: 950px;
 
    }
     .section-2 h1 {
@@ -586,7 +586,7 @@ justify-content: space-between;
     width:60% ;
 }
 .section4 {
-    height: 250px;
+    height: 300px;
 }
 .section4 h1{
     font-size: 26px;
@@ -629,13 +629,17 @@ width: 18.53px;
 height: 17.95px;
 }
 .section-six {
-    height: 640px;
+    height: 970px;
 }
 .section-six .box {
-    width: 85%;
+    width: 75%;
+}
+.section-six .little-box {
+    width: 75%;
 }
 .section7 {
-    height: 850px;
+    height:1150px;
+    width: 100%;
 }
 .section7 .bottom{
     display: flex;
