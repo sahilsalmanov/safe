@@ -514,24 +514,21 @@ justify-content: space-between;
     .section-1 {
         height: 1400px;
        }
-       .section-1 h1 {
+       .section-1 .second h1 {
         font-size: 700;
-        font-size: 60px;
+        font-size: 50px;
         width: 80%;
     }
     .section-1 .second .ellipse3 {
         position: relative;
+        height: 340px;
+    }
+    .section-1 .second .ellipse3 {
+        position: relative;
         height: 410px;
-       
     }
     .section-1 .image9 {
-        width: 100%;
-    }
-     .section-1 .ellipse-gray3 {
-        width: 100%;     
-        position: absolute;
-        z-index: -1;
-        
+        height: 370px ;
     }
     .section-1 .second {
         display: block;
@@ -539,22 +536,40 @@ justify-content: space-between;
     }
     .section-1 .second .second-first-top div p {
         font-size: 13px;
+        width: 70%;
     }
     .second-first-bottom p {
         width: 70%;
+        font-size: 8px;
     }
     .section-1 .third .third-block {
-        height: 220px;
-        background-color: #1E4681;
+        height: 150px;
         width: 70%;
-        
+        height: 230px;
+        font-size: 15px;
+        background-color: white;
+    }
+    .section-1 .third .third-block p {
+        background-color: #1E4681;
+    }
+    .section-1 .third .ordinary {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .section-1 .third .normal {
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
     }
     .second-second {
         display: flex;
         justify-content: flex-end;
-    }
-    .third-block p {
-        font-size: 22px;
+        height: 400px;
+        margin-bottom: 60px;
     }
     .section-2 {
     height: 950px;
@@ -562,7 +577,6 @@ justify-content: space-between;
    }
     .section-2 h1 {
         font-size: 26px;
-
     }
     .main-part {
         display: block;
@@ -575,7 +589,6 @@ justify-content: space-between;
     width:30%;
     margin: auto;
     height: 176px;
-
 }
 .image1 {
     height: 150px;
@@ -621,10 +634,13 @@ justify-content: space-between;
     width: 60%;
 }
 .section-5 {
-    height: 3000px;
+    height: 3150px;
 }
 .container-5 .bottom {
     display: block;
+}
+.section-5 .bottom  h3 {
+    font-size: 15px;
 }
 .container-5 .bottom .main-div {
     width: 60%;
@@ -632,12 +648,15 @@ justify-content: space-between;
     margin-bottom: 50px;
 }
 .container-5 .bottom .main-div p {
-    width: 40%;
+    width: 100%;
     padding-left: 10px;
     padding-bottom: 10px;
 }
     .container-6 {
         height: 700px;
+    }
+    .section-6 .text-bottom-left img {
+        width: 88%;
     }
     .container-6 h1 {
         font-size: 45px;
@@ -682,4 +701,3 @@ justify-content: space-between;
 
 
 }
-
